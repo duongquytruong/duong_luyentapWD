@@ -3,6 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
-.attribution { font-size: 0.6875rem; text-align: center; }
+body{
+    background-color:rgb(165, 191, 210);
+    width: 1440px;
+}
+/* Start wrapper */
+.master-wrapper{
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 20%;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* End wrapper */
+.comment{
+    display: inline-block;
+    text-align: center;
+    margin: 5px 0;
+    padding: 20px 0;
+}
+section.comment p{
+    margin: 15px;
+}
+/* start qr img*/
+img.qr-img{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+/* end qr img */
+/* h1 */
+h1{
+    font-size: 20px;
+}
+footer{
+    margin: 20px;
+}
+.attribution { font-size: 0.9875rem; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
